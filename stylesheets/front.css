@@ -1,0 +1,44 @@
+html {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 16px;
+	color: white;
+	background-color: white;
+}
+
+body {
+	background-color:#1F5593;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 1em;
+}   
+
+/**********fonts*/
+
+.largeText {
+	font-size: 3em;
+	margin-bottom: 0em;     
+}
+
+.paraText {
+	font-size: 1em;
+}
+
+/**********containers*/
+
+.frame {
+	display: grid;
+	grid-template-columns: 5% 90% 5%;
+	background-color: #1F5593;						
+}
+
+.titleCont {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	text-align: center;
+}
+
+.textCont {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	text-align: center;
+}
